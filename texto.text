@@ -19,10 +19,10 @@ Petición de la hoja CSS.
 ¿Cuál es la diferencia entre brindar una respuesta HTML y brindar una CSS? El tipo de lenguaje que se esta enviando por medio de la respuesta.
 
 Petición POST a través del formulario.
-¿Qué contiene la variable "result"?Un arreglo
-¿Por qué con la variable "data" se debe aplicarse el metodo toString()? Justifique.
+¿Qué contiene la variable "result"?Un arreglo con los datos del html
+¿Por qué con la variable "data" se debe aplicarse el metodo toString()? Justifique.Para acceder de manera fácil se convierten los datos a string
 
 Preguntas complementarias.
-¿Hay diferencia al quitar el control de peticiones para hojas CSS? Si sucedió algo distinto justifique por qué.
-¿Se puede inciar el servidor (node main.js) en cualquier sitio del proyecto? Cualquier respuesta justifique.
-Con sus palabras, ¿Por qué es importante aprender Node.js sin el uso de frameworks a pesar que estos facilitan el manejo de API's?
+¿Hay diferencia al quitar el control de peticiones para hojas CSS? Si sucedió algo distinto justifique por qué. Sí, no reconoce el tipo de archivo por lo tanto no aplica el estilo
+¿Se puede inciar el servidor (node main.js) en cualquier sitio del proyecto? Cualquier respuesta justifique. Sí, se iniciará una vez por proyecto.
+Con sus palabras, ¿Por qué es importante aprender Node.js sin el uso de frameworks a pesar que estos facilitan el manejo de API's?Se comprenden los procesos que el servidor hace en conjunto con las peticiones y los respectivos lenguajes en un pagina web
