@@ -1,0 +1,28 @@
+Declaración y definición de los módulos a utlizar.
+¿Cuál es la principal función del módulo HTTP? dar una petición de datos iniciado por un cliente que resivirá los datos, en este caso un navegador web.
+¿Cuál es la principal función del módulo FileSystem? organizar los datos despues que el programa haya terminado.
+¿Qué es un MIME type? es un tipo de contenido.
+
+Creación del servidor
+¿Qué contienen las variables "req" y "res" en la creación del servidor? req contiene la petición y res contiene la respuesta del servidor.
+¿La instrucción .listen(number) puede fallar? Justifique. Si el puerto se usa dará un error.
+¿Por qué es útil la función "collectRequestData(...)"? Permite recuperar y recolectar la informacion del archivoque se ocupá en el servidor.
+
+
+Manejo de peticiones.
+¿Para qué, además de conocer la dirección de la petición, es útil la variable "pathname"? Para ubicar la ruta o el archivo que se utilizará
+
+Petición de la página principal.
+¿Qué contine el parametro "data"?La información de la página en el body.
+
+Petición de la hoja CSS.
+¿Cuál es la diferencia entre brindar una respuesta HTML y brindar una CSS? El tipo de lenguaje que se esta enviando por medio de la respuesta.
+
+Petición POST a través del formulario.
+¿Qué contiene la variable "result"?Un arreglo
+¿Por qué con la variable "data" se debe aplicarse el metodo toString()? Justifique.
+
+Preguntas complementarias.
+¿Hay diferencia al quitar el control de peticiones para hojas CSS? Si sucedió algo distinto justifique por qué.
+¿Se puede inciar el servidor (node main.js) en cualquier sitio del proyecto? Cualquier respuesta justifique.
+Con sus palabras, ¿Por qué es importante aprender Node.js sin el uso de frameworks a pesar que estos facilitan el manejo de API's?
